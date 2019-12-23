@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	background: #1f253d !important;
+}
+
+h1, h2, p, a, span{
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+.titular {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.main-container {
+	font-family: 'Ubuntu', sans-serif;
+	width: 950px;
+	margin: auto;
+}
+
+.block {
+margin-bottom: 25px;
+background: #394264;
+border-radius: 30px;
+}
+
+.cat-header {
+overflow: hidden;
+width:100%;
+}
+
+    .cat-header img{
+    max-width:25%;
+    position: relative;
+    float:left;
+    }
+
+    .cat-header .titular {
+    background: #cc324b;
+    }
+
+
+    .cat-header .title-counter {
+    height: 135px;
+    background: #e64c65;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+        .cat-header .title-counter p {
+        margin: 0;
+        }
+
+        .subtitle-counter {
+        font-size: 16px;
+        }
+
+        .number-counter {
+        transform:translateY(-20px);
+        font-size: 60px;
+        }
+
+
+.facts {
+width: 27%;
+position: relative;
+margin-bottom: 110px;
+margin-right: 60px;
+}
+
+        .facts p {
+        padding: 30px 50px 20px 30px;
+        }
+
+        .facts span {
+        font-weight:700;
+        }
+
+        .facts .quotation{
+        font-size: 20px;
+        font-weight:700;
+        }
+
+        .facts .votes{
+        background-color: deepskyblue;
+        width: fit-content;
+        padding: 11px;
+        font-family: monospace;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        transform: translateY(-50px) translateX(215px);
+        color: antiquewhite;
+        font-size: x-large;
+        float:left;
+        }
+
+            .votes img {
+            width: 25px;
+            margin-right: 6px;
+            }
+
+.type-fact {
+position: absolute;
+float: left;
+display: block;
+left: 15%;
+bottom: -66px;
+}
+
+        .type-fact span {
+        background-color: #394264;
+        width: 40px;
+        height: 40px;
+        display: block;
+        transform: rotateZ(45deg)
+        }
+
+        .icon-type {
+        display: block;
+        background-color: #cc324b;
+        width: 100px;
+        height: 50px;
+        transform: translateY(15px);
+        position: relative;
+        color:antiquewhite;
+        font-family: monospace;
+        font-size: larger;
+        text-align: center;
+        padding-top: 18px;
+        }
+
+.jscroll-inner, .infinite-scroll{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: stretch;
+align-content: stretch;
+}
